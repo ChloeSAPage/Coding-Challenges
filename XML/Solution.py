@@ -2,8 +2,8 @@ import xml.etree.ElementTree as ET
 from xml.dom.minidom import parseString
 from dicttoxml import dicttoxml
 
-user_list = R"TechnicalTask\files\user-list.xml"
-mailing_list = R"TechnicalTask\files\mailing-list.xml"
+user_list = R"XML\files\user-list.xml"
+mailing_list = R"XML\files\mailing-list.xml"
 
 tree = ET.parse(user_list)
 root = tree.getroot()
